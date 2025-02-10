@@ -10,7 +10,7 @@ const live_uri =
   "mongodb+srv://tumi565:wdQ8McTpmzDf0Nlp@cluster0.4673k.mongodb.net/TODO_APP?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
-  .connect("live_uri")
+  .connect(live_uri)
   .then(() => {
     console.log("mongodb is connected");
   })
